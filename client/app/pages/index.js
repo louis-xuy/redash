@@ -1,12 +1,34 @@
-export { default as home } from './home';
-export { default as queriesList } from './queries-list';
-export { default as alertsList } from './alerts-list';
-export { default as alert } from './alert';
-export { default as admin } from './admin';
-export { default as dashboards } from './dashboards';
-export { default as querySnippets } from './query-snippets';
-export { default as users } from './users';
-export { default as groups } from './groups';
-export { default as destinations } from './destinations';
-export { default as dataSources } from './data-sources';
-export { default as queries } from './queries';
+import "./home/Home";
+
+import "./admin/Jobs";
+import "./admin/OutdatedQueries";
+import "./admin/SystemStatus";
+
+import "./alerts/AlertsList";
+import "./alert/Alert";
+
+import "./dashboards/DashboardList";
+import "./dashboards/DashboardPage";
+import "./dashboards/PublicDashboardPage";
+
+import "./data-sources/DataSourcesList";
+import "./data-sources/EditDataSource";
+
+import "./destinations/DestinationsList";
+import "./destinations/EditDestination";
+
+import "./groups/GroupsList";
+import "./groups/GroupDataSources";
+import "./groups/GroupMembers";
+
+import "./queries-list/QueriesList";
+import "./queries/QuerySource";
+import "./queries/QueryView";
+import "./queries/VisualizationEmbed";
+
+import "./query-snippets/QuerySnippetsList";
+
+import "./settings/OrganizationSettings";
+
+import "./users/UsersList";
+import "./users/UserProfile";

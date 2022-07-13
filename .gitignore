@@ -1,22 +1,22 @@
+.venv
+venv/
+.cache
+.coverage.*
 .coveralls.yml
 .idea
 *.pyc
+.nyc_output
+coverage
 .coverage
+coverage.xml
 client/dist
 .DS_Store
-celerybeat-schedule*
 .#*
 \#*#
 *~
 _build
-
-# Vagrant related
-.vagrant
-Berksfile.lock
-redash/dump.rdb
+.vscode
 .env
-.ruby-version
-venv
 
 dump.rdb
 
@@ -24,3 +24,6 @@ node_modules
 .tmp
 .sass-cache
 npm-debug.log
+
+client/cypress/screenshots
+client/cypress/videos
